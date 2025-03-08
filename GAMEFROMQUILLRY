@@ -1,0 +1,727 @@
+print('''
+ __      __       .__                                  __                           .__            .___.__                                           
+/  \    /  \ ____ |  |   ____  ____   _____   ____   _/  |_  ____     _____ ___.__. |__| ____    __| _/|__| ____      _________    _____   ____      
+\   \/\/   // __ \|  | _/ ___\/  _ \ /     \_/ __ \  \   __\/  _ \   /     <   |  | |  |/    \  / __ | |  |/ __ \    / ___\__  \  /     \_/ __ \     
+ \        /\  ___/|  |_\  \__(  <_> )  Y Y  \  ___/   |  | (  <_> ) |  Y Y  \___  | |  |   |  \/ /_/ | |  \  ___/   / /_/  > __ \|  Y Y  \  ___/     
+  \__/\  /  \___  >____/\___  >____/|__|_|  /\___  >  |__|  \____/  |__|_|  / ____| |__|___|  /\____ | |__|\___  >  \___  (____  /__|_|  /\___  > /\ 
+       \/       \/          \/            \/     \/                       \/\/              \/      \/         \/  /_____/     \/      \/     \/  \/ ''')
+print('''_____.___.                                       .___   __                  .__                                        .__                                __                 
+\__  |   | ____  __ __    ____   ____   ____   __| _/ _/  |_  ____     ____ |  |__   ____   ____  ______ ____     ____ |  |__ _____ ____________    _____/  |_  ___________  
+ /   |   |/  _ \|  |  \  /    \_/ __ \_/ __ \ / __ |  \   __\/  _ \  _/ ___\|  |  \ /  _ \ /  _ \/  ___// __ \  _/ ___\|  |  \\__  \\_  __ \__  \ _/ ___\   __\/ __ \_  __ \ 
+ \____   (  <_> )  |  / |   |  \  ___/\  ___// /_/ |   |  | (  <_> ) \  \___|   Y  (  <_> |  <_> )___ \\  ___/  \  \___|   Y  \/ __ \|  | \// __ \\  \___|  | \  ___/|  | \/ 
+ / ______|\____/|____/  |___|  /\___  >\___  >____ |   |__|  \____/   \___  >___|  /\____/ \____/____  >\___  >  \___  >___|  (____  /__|  (____  /\___  >__|  \___  >__| /\ 
+ \/                          \/     \/     \/     \/                      \/     \/                  \/     \/       \/     \/     \/           \/     \/          \/     \/ ''')
+print(r'''
+      ____  _   _ ______                                    _________          ______                               _______ _    _ _____  ______ ______  
+  / __ \| \ | |  ____|                                      |__   __\ \        / / __ \                            |__   __| |  | |  __ \|  ____|  ____| 
+ | |  | |  \| | |__                                            | |   \ \  /\  / / |  | |                              | |  | |__| | |__) | |__  | |__    
+ | |  | | . ` |  __|                                           | |    \ \/  \/ /| |  | |                              | |  |  __  |  _  /|  __| |  __|   
+ | |__| | |\  | |____                                          | |     \  /\  / | |__| |                              | |  | |  | | | \ \| |____| |____  
+  \____/|_| \_|______|                                         |_|      \/  \/   \____/                               |_|  |_|  |_|_|  \_\______|______| 
+                                                                                                                                                                                        
+                                                                                                                                                                                        
+                                                                                                                                                 ''')
+
+print(r"""
+  / \                                                    ,   A           {}                                                .--.
+  | |                                                   / \, | ,        .--.                                              /.--.\
+  |.|                                                  |    =|= >      /.--.\                                             |====|
+  |.|                                                   \ /` | `       |====|                                             |`::`|       
+  |:|      __                                            `   |         |`::`|                                         .-;`\..../`;_.-^-._
+,_|:|_,   /  )                                               |     .-;`\..../`;_.-^-._                               /  |...::..|`   :   `|
+  (Oo    / _I_                                              /\\/  /  |...::..|`   :   `|                            |   /'''::''|   .:.   |
+   +\ \  || __|                                             |:'\ |   /'''::''|   .:.   |                            ;--*\   ::  |..:::::..|
+      \ \||___|                                              \ /\;-,/\   ::  |..:::::..|                            <__> >._::_.| ':::::' |
+        \ /.:.\-\                                            |\ <` >  >._::_.| ':::::' |                            \::/|       \    :    /
+         |.:. /-----\                                        | `""`  /   ^^  |   ':'   |                            |||\|        \   :   /
+         |___|::oOo::|                                       |       |       \    :    /                            ''' |___/\___|`-.:.-`
+         /   |:<_T_>:|                                       |       |        \   :   /                                  \_ || _/    `
+        |_____\ ::: /                                        |       |___/\___|`-.:.-`                                   <_ >< _>
+         | |  \ \:/                                          |        \_ || _/    `                                      |  ||  |
+         | |   | |                                           |        <_ >< _>                                           |  ||  |          
+         \ /   | \___                                        |        |  ||  |                                          _\.:||:./_
+         / |   \_____\                                       |        |  ||  |                                         /____/\____\ 
+                                                             |       _\.:||:./_    
+                                                             | jgs  /____/\____\                
+  
+
+                                                                                                                                                                                                               """)   
+
+Charect=input("Well, who will you choose?(one),(two),(three) ---- ")
+if Charect == "one":
+    print("""   
+   _____                 _        _           _           
+  / ____|               | |      | |         (_)          
+ | |  __  ___   ___   __| |   ___| |__   ___  _  ___ ___  
+ | | |_ |/ _ \ / _ \ / _` |  / __| '_ \ / _ \| |/ __/ _ \ 
+ | |__| | (_) | (_) | (_| | | (__| | | | (_) | | (_|  __/ 
+  \_____|\___/ \___/ \__,_|  \___|_| |_|\___/|_|\___\___|     
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+            """)
+    print("""You are a knight swordsman. You wake up in the forest.You take the berries out of your backpack and eat them.You notice that it is already getting dark and decide to go back.""")
+    print("""
+
+ 
+                            .-''''-                                   
+                           F   .-'                                    
+                          F   J                                       
+                         I    I                                       
+                          L   `.                                      
+                           L    `-._,                                 
+                            `-.__.-'            ##                    
+                                               ###
+                       #                      ####
+              _____   ##                 .---#####-...__             
+          .--'     `-###          .--..-'    ######     ""`---....   
+ _____.----.        ###`.._____ .'          #######                  
+ a:f                ###       /       -.    ####### _.---            
+                    ###     .(              #######                  
+                     #      : `--...        ######                   
+                     #       `.     ``.     ######                   
+                               :       :.    #####                   
+                             .'          )    ###                    
+                           .'            /    ##                     
+                        _.'              |   .##                     
+                      ,:'               |     '                      
+                    .'                 <                             
+                   '                   |                             
+                  /                    |                             
+                 '                     .                       
+          
+          
+          
+          
+          
+          
+          
+          
+          
+             """)
+    print("""    
+                                                                   ,-,
+                                                             _.-=;~ /_
+                                                          _-~   '     ;.
+                                                      _.-~     '   .-~-~`-._
+                                                _.--~~:.             --.____88
+                              ____.........--~~~. .' .  .        _..-------~~
+                     _..--~~~~               .' .'             ,'
+                 _.-~                        .       .     ` ,'
+               .'                                    :.    ./
+             .:     ,/          `                   ::.   ,'
+           .:'     ,(            ;.                ::. ,-'
+          .'     ./'.`.     . . /:::._______.... _/:.o/
+         /     ./'. . .)  . _.,'               `88;?88|
+       ,'  . .,/'._,-~ /_.o8P'                  88P ?8b
+    _,'' . .,/',-~    d888P'                    88'  88|
+ _.'~  . .,:oP'        ?88b              _..--- 88.--'8b.--..__
+:     ...' 88o __,------.88o ...__..._.=~- .    `~~   `~~      ~-._ Seal _.
+`.;;;:='    ~~            ~~~                ~-    -       -   -
+ 
+          
+          
+          
+          
+          
+          
+          """)
+    met=input("You see a fox.It is clearly friendly. You just have a small piece of meat. Will you try to tame it and take it with you on a trip? (yes)/(no) --- ")
+    if met == "yes":
+     print("It seems that you have clearly succeeded. Now you have a companion.")
+     print("""
+
+
+
+
+
+
+
+
+  _______ _                       _     _                                     _     _                     _              __      _                _                              _               _ 
+ |__   __| |                     | |   (_)                                   | |   | |                   | |            / _|    (_)              | |                            (_)             | |
+    | |  | |__   ___    __ _  ___| |__  _  _____   _____ _ __ ___   ___ _ __ | |_  | |_ ___     __ _  ___| |_    __ _  | |_ _ __ _  ___ _ __   __| |  ______   _ __ ___  ___ ___ ___   _____  __| |
+    | |  | '_ \ / _ \  / _` |/ __| '_ \| |/ _ \ \ / / _ \ '_ ` _ \ / _ \ '_ \| __| | __/ _ \   / _` |/ _ \ __|  / _` | |  _| '__| |/ _ \ '_ \ / _` | |______| | '__/ _ \/ __/ _ \ \ \ / / _ \/ _` |
+    | |  | | | |  __/ | (_| | (__| | | | |  __/\ V /  __/ | | | | |  __/ | | | |_  | || (_) | | (_| |  __/ |_  | (_| | | | | |  | |  __/ | | | (_| |          | | |  __/ (_|  __/ |\ V /  __/ (_| |
+    |_|  |_| |_|\___|  \__,_|\___|_| |_|_|\___| \_/ \___|_| |_| |_|\___|_| |_|\__|  \__\___/   \__, |\___|\__|  \__,_| |_| |_|  |_|\___|_| |_|\__,_|          |_|  \___|\___\___|_| \_/ \___|\__,_|
+                                                                                                __/ |                                                                                              
+                                                                                               |___/                                                                                               """)
+     
+
+
+
+     print("You are in the city. It is dark outside. You have 3 choices where you can go. To the alley and drink the money. To the bardel. Go to sleep near the castle gate.")
+     sleep=input("what do you choose? (one) (two) (three) --- ")
+     if sleep == "one":
+       print("You were downtrodden while sleeping by unknown thugs and lost all your health. As a result, you died.Fortunately, your fox survived.")
+       print(""" NO!                          MNO!
+     MNO!!         [NBK]          MNNOO!
+   MMNO!                           MNNOO!!
+ MNOONNOO!   MMMMMMMMMMPPPOII!   MNNO!!!!
+ !O! NNO! MMMMMMMMMMMMMPPPOOOII!! NO!
+       ! MMMMMMMMMMMMMPPPPOOOOIII! !
+        MMMMMMMMMMMMPPPPPOOOOOOII!!
+        MMMMMOOOOOOPPPPPPPPOOOOMII!
+        MMMMM..    OPPMMP    .,OMI!
+        MMMM::   o.,OPMP,.o   ::I!!
+          NNM:::.,,OOPM!P,.::::!!
+         MMNNNNNOOOOPMO!!IIPPO!!O!
+         MMMMMNNNNOO:!!:!!IPPPPOO!
+          MMMMMNNOOMMNNIIIPPPOO!!
+             MMMONNMMNNNIIIOO!
+           MN MOMMMNNNIIIIIO! OO
+          MNO! IiiiiiiiiiiiI OOOO
+     NNN.MNO!   O!!!!!!!!!O   OONO NO!
+    MNNNNNO!    OOOOOOOOOOO    MMNNON!
+      MNNNNO!    PPPPPPPPP    MMNON!
+         OO!                   ON!""")
+     elif sleep == "two":
+       print('Incredibly, a bardel called "Swintus" was lit and in the end, everyone who started in it was dead. Unfortunately, you died, and so did your fox.')
+       print(""" NO!                          MNO!
+     MNO!!         [NBK]          MNNOO!
+   MMNO!                           MNNOO!!
+ MNOONNOO!   MMMMMMMMMMPPPOII!   MNNO!!!!
+ !O! NNO! MMMMMMMMMMMMMPPPOOOII!! NO!
+       ! MMMMMMMMMMMMMPPPPOOOOIII! !
+        MMMMMMMMMMMMPPPPPOOOOOOII!!
+        MMMMMOOOOOOPPPPPPPPOOOOMII!
+        MMMMM..    OPPMMP    .,OMI!
+        MMMM::   o.,OPMP,.o   ::I!!
+          NNM:::.,,OOPM!P,.::::!!
+         MMNNNNNOOOOPMO!!IIPPO!!O!
+         MMMMMNNNNOO:!!:!!IPPPPOO!
+          MMMMMNNOOMMNNIIIPPPOO!!
+             MMMONNMMNNNIIIOO!
+           MN MOMMMNNNIIIIIO! OO
+          MNO! IiiiiiiiiiiiI OOOO
+     NNN.MNO!   O!!!!!!!!!O   OONO NO!
+    MNNNNNO!    OOOOOOOOOOO    MMNNON!
+      MNNNNO!    PPPPPPPPP    MMNON!
+         OO!                   ON!""")
+     elif sleep == "three":
+       print("Bandits tried to attack you, but a fox protected you and you did not even lose your health, and one of the bandits dropped a healing potion. You successfully slept through the night.")
+       print("Waking up in the morning, you hear a conversation between two guards near the gate, they are talking about some kind of dungeon and the fact that the wizard took the elf princess.")
+       print("You decide to go on a journey with your fox, because such a chance does not come every day, so you are also a fairly experienced knight, so you are ready for this journey.")
+       print("This terrible road took you 15 days. You are all dirty and untidy. But finally you are there.")
+       ammo = input("Should you check the ammunition before turning the dungeon?(yes)(no) ---- ")
+       if ammo == "yes":
+         print("Oh no, you were attacked by a skeleton from the dungeon while you were checking your supplies.")
+         print("You lose 2 heart out of 4.")
+         do=input("You're bleeding, what should you do.Use healing posion or try to kill skelleton?--- (one)(two)----- ")
+         if do == "one":
+           print("While you were reaching for the potion in your backpack, the skeleton hit you once more and you died.")
+           print(""" NO!                          MNO!
+     MNO!!         [NBK]          MNNOO!
+   MMNO!                           MNNOO!!
+ MNOONNOO!   MMMMMMMMMMPPPOII!   MNNO!!!!
+ !O! NNO! MMMMMMMMMMMMMPPPOOOII!! NO!
+       ! MMMMMMMMMMMMMPPPPOOOOIII! !
+        MMMMMMMMMMMMPPPPPOOOOOOII!!
+        MMMMMOOOOOOPPPPPPPPOOOOMII!
+        MMMMM..    OPPMMP    .,OMI!
+        MMMM::   o.,OPMP,.o   ::I!!
+          NNM:::.,,OOPM!P,.::::!!
+         MMNNNNNOOOOPMO!!IIPPO!!O!
+         MMMMMNNNNOO:!!:!!IPPPPOO!
+          MMMMMNNOOMMNNIIIPPPOO!!
+             MMMONNMMNNNIIIOO!
+           MN MOMMMNNNIIIIIO! OO
+          MNO! IiiiiiiiiiiiI OOOO
+     NNN.MNO!   O!!!!!!!!!O   OONO NO!
+    MNNNNNO!    OOOOOOOOOOO    MMNNON!
+      MNNNNO!    PPPPPPPPP    MMNON!
+         OO!                   ON!""")
+            
+         elif do == "two":
+           print("You've killed a skeleton and are exhausted and drink a potion.")
+           print("You survived, but fainted from loss of strength. The fox, while you were sleeping, killed 1 more skeleton that tried to attack you.")
+           print("Going through the labyrinths in the dungeon, you will encounter a bunch of skeletons, but this time you can easily deal with them.")
+           print("You reach the last floor. Behind the door of which the wizard is hiding")
+           print("You barely manage to open the door and you start a dialogue with the wizard.")
+           print(""" 
+                 Wizard - How did you get here?!
+                 You - It doesn't matter now.
+                 Wizzard - Weakling.
+                 You - Did you just call the knight a weakling? And don't you want to apologize?
+                 Wizzard - Well, I'm sorry.
+                 You - But not even passed. That's why I'll kill you for it. 
+                 Wizzard - We will see, who will die.
+                 Sounds from the room on the other side of the floor - Eh m M EM""")
+           print("""
+   _____  ____  _    _ _   _ _____         ____  ______   ______ _____ _____ _    _ _______                     
+  / ____|/ __ \| |  | | \ | |  __ \       / __ \|  ____| |  ____|_   _/ ____| |  | |__   __|                    
+ | (___ | |  | | |  | |  \| | |  | |___  | |  | | |__    | |__    | || |  __| |__| |  | |                       
+  \___ \| |  | | |  | | . ` | |  | / __| | |  | |  __|   |  __|   | || | |_ |  __  |  | |                       
+  ____) | |__| | |__| | |\  | |__| \__ \ | |__| | |      | |     _| || |__| | |  | |  | |     _   _   _   _   _ 
+ |_____/ \____/ \____/|_| \_|_____/|___/  \____/|_|      |_|    |_____\_____|_|  |_|  |_|    (_) (_) (_) (_) (_)
+                                                                                                                
+                                                                                                                """)
+           print("Wizard- FIRE BALL")
+           move = input("You need to guess which way to run in order to dodge.(right)(left) ---  ")
+           if move == "right":
+             print("YOU DIDN'T DODGE IT, YOU DIE.Your fox has become the court pet of the Wizard.")
+             print(""" NO!                          MNO!
+     MNO!!         [NBK]          MNNOO!
+   MMNO!                           MNNOO!!
+ MNOONNOO!   MMMMMMMMMMPPPOII!   MNNO!!!!
+ !O! NNO! MMMMMMMMMMMMMPPPOOOII!! NO!
+       ! MMMMMMMMMMMMMPPPPOOOOIII! !
+        MMMMMMMMMMMMPPPPPOOOOOOII!!
+        MMMMMOOOOOOPPPPPPPPOOOOMII!
+        MMMMM..    OPPMMP    .,OMI!
+        MMMM::   o.,OPMP,.o   ::I!!
+          NNM:::.,,OOPM!P,.::::!!
+         MMNNNNNOOOOPMO!!IIPPO!!O!
+         MMMMMNNNNOO:!!:!!IPPPPOO!
+          MMMMMNNOOMMNNIIIPPPOO!!
+             MMMONNMMNNNIIIOO!
+           MN MOMMMNNNIIIIIO! OO
+          MNO! IiiiiiiiiiiiI OOOO
+     NNN.MNO!   O!!!!!!!!!O   OONO NO!
+    MNNNNNO!    OOOOOOOOOOO    MMNNON!
+      MNNNNO!    PPPPPPPPP    MMNON!
+         OO!                   ON!""")
+           elif move == "left":
+             print("You dodge It.")
+             print("Wizard in Frenzied") 
+             print("You manage to stab the wizard's arm with a sword and cut off his fingers.") 
+             print("You can hear the wizard whining and cursing you")   
+             print("The fox knocks the vizard bite on his leg and you manage to kill him.")  
+             print("After that, you look around and see the door. Open the door and free the elf.")       
+             first=input("How go first?(elf)(you)(fox)--- ")   
+             if first == "elf":
+               print("""The elf woman passes first, but as soon as she takes the first step, the floor under her collapses and she begins to fall. You grab her by
+               the arm and pull her towards you, you save her, but at the cost of your life. At the end of the all, the elf and your fox come out of the dungeon and get married.""")
+               print("""  ______           _ _                 _ _            _____ _                               __          __      _     _ _            _ _            _    _       _            _            _ 
+ |  ____|         | (_)            _  ( | )  /\      / ____| |                              \ \        / /     | |   | (_)          ( | )          | |  | |     | |          | |          | |
+ | |__   _ __   __| |_ _ __   __ _(_)  V V  /  \    | (___ | |_ _ __ __ _ _ __   __ _  ___   \ \  /\  / /__  __| | __| |_ _ __   __ _V V   ______  | |  | |_ __ | | ___   ___| | _____  __| |
+ |  __| | '_ \ / _` | | '_ \ / _` |        / /\ \    \___ \| __| '__/ _` | '_ \ / _` |/ _ \   \ \/  \/ / _ \/ _` |/ _` | | '_ \ / _` |    |______| | |  | | '_ \| |/ _ \ / __| |/ / _ \/ _` |
+ | |____| | | | (_| | | | | | (_| |_      / ____ \   ____) | |_| | | (_| | | | | (_| |  __/    \  /\  /  __/ (_| | (_| | | | | | (_| |             | |__| | | | | | (_) | (__|   <  __/ (_| |
+ |______|_| |_|\__,_|_|_| |_|\__, (_)    /_/    \_\ |_____/ \__|_|  \__,_|_| |_|\__, |\___|     \/  \/ \___|\__,_|\__,_|_|_| |_|\__, |              \____/|_| |_|_|\___/ \___|_|\_\___|\__,_|
+                              __/ |                                              __/ |                                           __/ |                                                       
+                             |___/                                              |___/                                           |___/                                                        """)
+               print("""
+       ⠀⠀⠀⢀⣴⠶⣾⠛⢛⣯⠿⠛⠛⠳⢦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢀⣴⢿⣇⣸⣧⣤⣿⣥⣄⣠⣶⠶⢦⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢠⣾⡿⢫⡟⠁⢸⡇⠈⢿⡄⢻⡍⠻⣶⣌⢿⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⢠⣟⡾⠁⣿⠀⠀⣼⠃⠀⠘⣷⠈⣷⠀⢹⡿⡎⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⣾⣽⡇⢀⣷⠶⠆⣿⠀⠾⠿⣿⣦⣿⡄⢀⡇⡷⣿⣁⣠⣤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠻⢿⣿⣯⣿⣦⣄⣿⢦⣤⣤⣿⣷⣿⠷⡾⢣⣟⣫⡭⣴⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢠⡏⣿⠛⠯⠽⠀⠀⠘⠃⠻⠶⠟⣻⠃⢸⡏⣡⡾⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠘⢷⣿⡿⠃⠀⠀⠀⠀⢀⡀⠀⢀⡟⣠⣸⣿⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠘⠿⠻⣦⣀⠀⠲⠚⠛⠁⣠⣼⣧⣿⠻⣿⢷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⠛⢻⣶⣶⣞⢛⠉⣾⣯⣿⡄⢻⡌⢷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⣠⣿⣿⡴⣿⣿⣿⣟⣸⣿⣿⣿⣿⡧⣬⣻⣌⢻⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⣴⢯⡿⠋⣰⣿⠿⠿⣿⣽⠿⣿⣿⣿⠀⠀⢻⡟⢧⡙⢷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⣠⠞⣡⣿⢫⣾⣿⠏⠀⢀⣴⠃⣸⣿⣿⣿⡇⠀⠀⣿⣄⠙⢷⣝⢷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⣠⡾⢋⣼⢋⡏⣾⣿⣿⠀⠀⠚⠁⢠⣿⣿⣿⣿⣿⠀⠀⢸⡟⢧⡀⠙⢷⣝⢧⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⣴⠏⢠⡾⠁⣾⡇⢹⣿⣿⡆⠀⠀⠀⣼⣿⣿⣿⣿⣿⠀⠀⢸⣿⡌⠻⣆⠀⠙⣦⠻⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⢸⠇⢀⡿⠁⣸⠇⣇⠀⢻⣿⣧⠀⠀⢠⣿⣿⣿⣿⣿⡃⠀⠀⢸⠃⢻⡆⠘⣧⠀⠸⣇⠘⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⣿⠀⣼⡇⠀⡟⠀⣿⠀⠀⣿⣛⣒⣛⣚⣿⠿⠿⣿⢻⡇⠀⠀⣿⠀⠀⣿⠀⢸⡇⠀⣿⠀⢸⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠙⠷⠿⣆⣰⣧⡾⠋⢀⣼⣷⣶⣶⣶⣶⣶⣾⣿⣿⣟⣇⠀⠀⠉⠻⣦⣿⠀⣸⠇⢀⣿⢀⣼⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⢉⣽⠏⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡀⠀⠀⠈⠻⣶⠿⠤⠞⠘⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⢀⡾⠃⠀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣄⠀⠀⠀⠙⢧⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⣠⡟⠀⢀⡼⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⢿⡳⣄⡀⠀⠈⢻⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⣼⣿⣦⣠⣾⣹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⢻⣎⢷⠈⠻⣦⣶⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⢠⣿⣿⣿⣯⡏⣿⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠀⠸⣿⣸⡇⠀⢨⣿⣿⣷⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⣸⣿⣿⣿⣿⡇⣿⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⣿⡇⣷⠀⠸⡿⢿⣿⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⣿⢿⣿⡏⢿⣷⣿⣧⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢃⣀⣀⣽⣷⣿⠀⠀⢷⣼⠙⢻⣯⡙⢷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠘⣧⣹⣿⠀⢻⣿⣿⣿⡿⢿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠻⣿⠦⠿⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠈⠳⠏⠀⠈⢿⡿⢼⡉⡿⣴⠛⡾⣍⣿⡄⠸⣏⡟⢿⣛⡿⢯⡟⣾⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠈⢿⣯⣹⠧⣟⣻⢅⣸⢾⡇⠀⢻⣽⢯⣸⢓⣯⣹⣿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠈⢻⣟⢾⣩⡷⣴⠷⣼⣷⠀⠈⣿⢶⣋⡿⢤⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣿⡽⢦⡟⣾⣉⣿⠀⠀⢹⣯⣸⠳⣼⣹⢧⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣷⣞⣹⢧⡟⣿⡄⠀⠀⣷⠟⢶⡃⡽⢦⣟⢷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡿⣼⠓⣼⢳⣿⡇⠀⠀⢸⡗⣯⣸⠷⣼⠈⡿⢽⣷⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡿⡷⣏⡿⢍⡿⣼⡇⠀⠀⠀⢻⣄⡟⢦⡏⢱⢧⡼⠙⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⡿⢧⡞⠳⣼⢳⣾⡇⠀⠀⠀⠀⢿⡳⣼⠉⡿⣤⠟⢺⣍⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⢲⣞⢉⡿⣍⣿⣼⡇⠀⠀⠀⠀⠈⣷⡏⢻⣇⡾⢳⣯⣸⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣯⣠⠟⢦⡞⢦⡟⡇⠀⠀⠀⠀⠀⠸⣯⡿⣼⠟⣾⡁⡟⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣷⡋⣳⣏⢙⣾⣹⣷⠀⠀⠀⠀⠀⠀⠹⣇⡾⢳⣇⣹⢧⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⢧⣨⠟⢦⡟⣿⠀⠀⠀⠀⠀⠀⠀⢻⡷⣾⢨⠿⣼⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⡋⣳⢏⣹⣿⠀⠀⠀⠀⠀⠀⠀⠀⢿⣏⡿⣴⠇⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⢓⣾⣹⢿⠀⠀⠀⠀⠀⠀⠀⠀⠈⣿⢦⡏⣻⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣶⣋⢿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠸⣏⣸⢻⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣧⣏⣻⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣝⣾⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⣾⣽⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠄⠀⢀⠀⠀⠀⠀⠀⠀⠀⣀⢀""")
+             elif first == "you":
+               print("""You begin to walk, but the ground collapses under you. You react sharply and save yourself by catching on the door. You are all right, get out of the dungeon. When you come to the Elian kingdom
+                     , the king meets you and you find out that the elf is already going to marry someone, so you are given only 1 gold coin and sent on a good journey.""")
+               print("""
+  _______ _                           _ _                 _ ___          __         _   _     _                _           _   
+ |__   __| |                         | (_)            _  ( | ) \        / /        | | | |   (_)              | |         | |  
+    | |  | |__   ___    ___ _ __   __| |_ _ __   __ _(_)  V V \ \  /\  / /_ _ ___  | |_| |__  _ ___  __      _| |__   __ _| |_ 
+    | |  | '_ \ / _ \  / _ \ '_ \ / _` | | '_ \ / _` |         \ \/  \/ / _` / __| | __| '_ \| / __| \ \ /\ / / '_ \ / _` | __|
+    | |  | | | |  __/ |  __/ | | | (_| | | | | | (_| |_         \  /\  / (_| \__ \ | |_| | | | \__ \  \ V  V /| | | | (_| | |_ 
+    |_|  |_| |_|\___|  \___|_| |_|\__,_|_|_| |_|\__, (_)         \/  \/ \__,_|___/  \__|_| |_|_|___/   \_/\_/ |_| |_|\__,_|\__|
+                                                 __/ |                                                                         
+                                                |___/                                                                                                      |___/                         """)
+               print(""" 
+                     
+  _____                                     _ _   _                __         ___  _ _                        _            _            _ 
+ |_   _|                                   (_) | (_)              / _|       |__ \( | )                      | |          | |          | |
+   | |   __      ____ _ ___  __      ____ _ _| |_ _ _ __   __ _  | |_ ___  _ __ ) |V V   ______   _   _ _ __ | | ___   ___| | _____  __| |
+   | |   \ \ /\ / / _` / __| \ \ /\ / / _` | | __| | '_ \ / _` | |  _/ _ \| '__/ /      |______| | | | | '_ \| |/ _ \ / __| |/ / _ \/ _` |
+  _| |_   \ V  V / (_| \__ \  \ V  V / (_| | | |_| | | | | (_| | | || (_) | | |_|                | |_| | | | | | (_) | (__|   <  __/ (_| |
+ |_____|   \_/\_/ \__,_|___/   \_/\_/ \__,_|_|\__|_|_| |_|\__, | |_| \___/|_| (_)                 \__,_|_| |_|_|\___/ \___|_|\_\___|\__,_|
+                                                           __/ |                                                                          
+                                                          |___/                                                                           """)
+             elif first == "fox":
+               print("""Your fox is too fast, and the floor does not have time to fall faster than he can break through. So everyone is saved,
+                      but it's not the task of getting out of the dungeon The elf hits you and leaves.""")
+               print(""" 
+  ______           _ _                 _ _                              _   _                    __   _               _ _            _    _       _            _            _   
+ |  ____|         | (_)            _  ( | )                            | | | |                  / _| | |             ( | )          | |  | |     | |          | |          | |  
+ | |__   _ __   __| |_ _ __   __ _(_)  V V_   _ _ ____      _____  _ __| |_| |__  _   _    ___ | |_  | | _____   _____V V   ______  | |  | |_ __ | | ___   ___| | _____  __| |  
+ |  __| | '_ \ / _` | | '_ \ / _` |      | | | | '_ \ \ /\ / / _ \| '__| __| '_ \| | | |  / _ \|  _| | |/ _ \ \ / / _ \    |______| | |  | | '_ \| |/ _ \ / __| |/ / _ \/ _` |  
+ | |____| | | | (_| | | | | | (_| |_     | |_| | | | \ V  V / (_) | |  | |_| | | | |_| | | (_) | |   | | (_) \ V /  __/             | |__| | | | | | (_) | (__|   <  __/ (_| |_ 
+ |______|_| |_|\__,_|_|_| |_|\__, (_)     \__,_|_| |_|\_/\_/ \___/|_|   \__|_| |_|\__, |  \___/|_|   |_|\___/ \_/ \___|              \____/|_| |_|_|\___/ \___|_|\_\___|\__,_(_)
+                              __/ |                                                __/ |                                                                                        
+                             |___/                                                |___/                                                                                         """)
+
+
+
+
+
+
+         elif ammo == "no":
+           print("You enter the dungeon and you are attacked by two skeletons that kill you in the end, the fox was able to defeat them, but after your death. YOU DIED.")
+           print(""" NO!                          MNO!
+     MNO!!         [NBK]          MNNOO!
+   MMNO!                           MNNOO!!
+ MNOONNOO!   MMMMMMMMMMPPPOII!   MNNO!!!!
+ !O! NNO! MMMMMMMMMMMMMPPPOOOII!! NO!
+       ! MMMMMMMMMMMMMPPPPOOOOIII! !
+        MMMMMMMMMMMMPPPPPOOOOOOII!!
+        MMMMMOOOOOOPPPPPPPPOOOOMII!
+        MMMMM..    OPPMMP    .,OMI!
+        MMMM::   o.,OPMP,.o   ::I!!
+          NNM:::.,,OOPM!P,.::::!!
+         MMNNNNNOOOOPMO!!IIPPO!!O!
+         MMMMMNNNNOO:!!:!!IPPPPOO!
+          MMMMMNNOOMMNNIIIPPPOO!!
+             MMMONNMMNNNIIIOO!
+           MN MOMMMNNNIIIIIO! OO
+          MNO! IiiiiiiiiiiiI OOOO
+     NNN.MNO!   O!!!!!!!!!O   OONO NO!
+    MNNNNNO!    OOOOOOOOOOO    MMNNON!
+      MNNNNO!    PPPPPPPPP    MMNON!
+         OO!                   ON!""")
+    elif met == "no":
+      print("""You just walk past the fox. Heading to the city. On the way there,
+             you hear about some kind of conversation with the tan of something and you report this information to the guards. Now you will have to decide where to go to sleep 
+            - On the street and save money. In the bardel. Or near the gates to the kingdom. """) 
+      choose=input("So, where will you go? (one)(two)(three) ----  ")
+      if choose == "one":
+        print("You were downtrodden while sleeping by unknown thugs and lost all your health. As a result, you died.")
+        print(""" NO!                          MNO!
+     MNO!!         [NBK]          MNNOO!
+   MMNO!                           MNNOO!!
+ MNOONNOO!   MMMMMMMMMMPPPOII!   MNNO!!!!
+ !O! NNO! MMMMMMMMMMMMMPPPOOOII!! NO!
+       ! MMMMMMMMMMMMMPPPPOOOOIII! !
+        MMMMMMMMMMMMPPPPPOOOOOOII!!
+        MMMMMOOOOOOPPPPPPPPOOOOMII!
+        MMMMM..    OPPMMP    .,OMI!
+        MMMM::   o.,OPMP,.o   ::I!!
+          NNM:::.,,OOPM!P,.::::!!
+         MMNNNNNOOOOPMO!!IIPPO!!O!
+         MMMMMNNNNOO:!!:!!IPPPPOO!
+          MMMMMNNOOMMNNIIIPPPOO!!
+             MMMONNMMNNNIIIOO!
+           MN MOMMMNNNIIIIIO! OO
+          MNO! IiiiiiiiiiiiI OOOO
+     NNN.MNO!   O!!!!!!!!!O   OONO NO!
+    MNNNNNO!    OOOOOOOOOOO    MMNNON!
+      MNNNNO!    PPPPPPPPP    MMNON!
+         OO!                   ON!""")
+      elif choose == "two":
+        print("""It's unbelievable, but the building you saved was a bardel, because they wanted to set it on fire.
+        You sleep peacefully in a soft and warm bed, in the morning
+        you take a shower and ask the barman for news. He tells you about the dungeon and the princess.""")
+        print("""You are going on a journey. You look through your backpack right in your room and count only 20 gold coins 
+        and a piece of lost meat, which you successfully threw away. Now you should go for the cups before going into the dungeon.""")
+        print("""                 __               _|_
+                   |+-==|         .'.':`.`.
+              |    |+--=|        / /  |  \ \
+             /'\   '+ -=|        ^^^^^^^^^^^
+            //|\\      =|   &C   O__u |  u O~
+          O ^^^^^           /\_u/\/uuu|uuu\/\
+     &C  /|\_@|   C__@     /)  ( '--------' ,|
+     /\_ \@@@@|@@\/\      /_|   \_\   |    /_|           |
+    ( ( `,o--------')      /|   / |  /|\   |\           /'\
+    /__\ /`'  |   <|                        _|_        //|\\
+    /|  />   /|\   \`                    .'.':`.`.     ^^^^^
+                                        / /  |  \ \    %%|%%  O
+                     _|_                ^^^^^^^^^^^   %%%|%%%_/\\
+                  .'.':`.`.             C_/  |       '-------'  )
+                 / /  |  \ \         d}<|8888|888  {b    |     / \
+                 ^^^^^^^^^^^     _888/\_88888|8888_/\   /|\    |  \
+          ~C          |   O      '--|(-------+----' ,|
+          /),\_ O     | \/|\/    |  |_\ | \  |    |/_(
+       o /( )  /|\####|###### O  |   | \    /|\   | \\
+      (`' )_(  \|'-----------'/\\
+      /\  / |   |\    |  _o  /  )
+  ejm           |/   /|\  (`'  /|
+                          />   \ \ """)  
+        print("You are given a choice of what supplies to buy. (NOTE - The choice of store may affect the ending).")    
+        market=input("The first shop is a weapons shop. The second one is potions and healing spells. The third one is a grocery store.(one)(two)(three) ---- ")
+        if market == "one":
+          print("""You go to a weapons shop, there works a dwarf. He is not very tall with a big lush white beard. He shows you the assortment.
+           Everything is incredibly expensive. You only have enough money to buy three daggers at 3 gold each.""")
+          print("""⠀⠀⠀⠀⠀⠀⣰⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣿⣿⣧⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⢀⣤⣾⣿⣿⣿⠿⢻⣿⡶⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⣠⣴⣿⣿⣿⠿⠋⠁⠀⣿⡟⣼⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡴⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⢿⣿⣿⣿⠁⠀⠀⠀⠀⠙⠐⠿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣤⠞⠁⣿⠈⠻⢦⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠙⢿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣤⡤⠶⠚⠛⠉⠁⠀⠀⠀⣿⠀⢂⠠⠀⠩⠙⠛⠛⠶⢦⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠻⣿⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⠶⠛⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣷⣀⠃⠉⠄⡈⢄⠩⠐⡠⠠⢉⠙⠳⣦⣄⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠹⣿⣆⠀⠀⠀⠀⠀⠀⠀⣀⡴⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢽⢿⣿⣤⠂⣀⣓⡌⢂⠂⢁⠂⡌⠐⠂⠉⢻⣦⣄⣀⣀⠀⠀⠀⠀
+⠀⠀⠸⣷⣶⣶⣶⣦⣬⣛⠃⠀⠀⠀⢀⣠⣼⠯⠶⠶⣤⣤⣀⡀⠀⠀⠀⠀⠀⠀⢀⡀⠀⠀⠀⢹⠘⣏⣱⣶⡿⠋⠅⠂⠌⡁⠠⠄⣑⣶⠿⢻⢍⡹⣏⡩⣛⡳⢦⡀
+⠀⠀⠀⠀⠀⠈⠈⠉⣿⣿⠆⢀⡴⡞⢫⣥⠞⢏⣛⢓⡭⠢⡽⠽⣷⣄⠀⠀⠀⠀⠈⠻⢷⣶⣤⣼⣻⡿⣿⣧⡀⢂⠘⠠⢁⠔⣡⣾⠟⣐⣛⠡⠒⣁⢘⡻⣚⠉⢢⣏
+⠀⠀⠀⠀⠀⣤⣶⠾⠟⢋⡴⢋⣓⠴⢛⡡⠺⠍⠅⣌⣷⡍⡡⡅⠸⣞⣧⠀⠀⠀⠀⠀⠀⣼⡷⢻⣍⢿⡽⣿⡇⠠⠠⠁⠢⣸⣿⠇⣰⠏⣐⢛⢠⡶⠟⡥⠢⠖⢈⡟
+⠀⠀⠀⠀⠀⠀⠀⠀⢠⡟⠃⡠⠬⢙⢾⣄⡉⠺⡨⡞⠬⢷⡄⠬⡔⣻⢸⡄⠀⠀⠀⢠⣾⠏⠀⢸⡻⣷⣿⣾⡏⠐⡐⠁⢰⡟⣿⢸⡟⣞⡀⣴⠏⠥⣺⢳⡁⠆⠰⣏
+⠀⠀⠀⠀⠀⠀⠀⠀⣼⢁⡠⣭⠛⡡⠦⢙⢷⡘⠉⠓⠝⢽⡇⢡⢂⢻⢸⡇⠀⠀⣴⡿⠁⠀⠀⣹⢿⣮⡻⣟⠻⣶⡈⠔⢸⡇⣿⢸⡇⠁⣶⠟⡀⢟⠃⣭⣾⠧⢉⡗
+⠀⠀⠀⠀⠀⠀⠀⢠⡟⣂⡙⠡⢶⠡⡡⢖⠮⣿⠀⠿⠫⢼⡷⣀⡵⣿⢸⠁⠀⠼⠋⠀⠀⠀⠀⣽⣾⢿⣿⣟⠦⠈⢡⠀⢸⡇⣿⢸⡇⢰⡟⢐⠒⣥⡟⡋⣠⠈⢠⡟
+⠀⠀⠀⠀⠀⠀⠀⣾⢓⡯⡶⣥⣆⡥⠧⢕⡭⢼⣟⡨⠏⣾⠧⢎⣹⢇⡟⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣳⣾⣯⣙⢮⡷⡄⣷⢸⡼⣷⢸⡇⠃⣼⠟⣀⡁⡁⠨⠔⡷
+⠀⠀⠀⠀⠀⠀⣼⢃⣉⢄⣒⠔⣨⠿⣦⡄⠌⢸⡇⢠⣴⡟⠰⣡⣟⡾⠁⠀⠀⢀⣀⠀⠀⠀⠀⣿⣾⢿⣿⣞⣿⣳⡳⡷⣝⣾⣎⣷⣻⣼⡇⢼⡏⡌⣨⢄⢠⠠⢈⡗
+⣆⠀⠀⠀⢀⣼⡋⡲⢡⣆⠖⡑⡄⢬⢘⢿⣄⣸⠗⣰⠏⣐⣵⢯⡞⠁⠀⠀⠀⢿⡿⠀⠀⣠⣾⣿⣿⣻⣿⣻⣯⣧⡻⣜⢯⣷⠸⢾⣿⣏⡁⣿⣁⢒⢂⣴⡾⠟⠨⣧
+⣿⠦⣤⠶⠛⣑⡠⢕⠈⢌⠻⣦⡉⠀⣆⣚⣧⡿⢘⣻⣞⣫⡵⠋⠀⠀⠀⣠⣶⣦⣄⣠⣾⣿⡿⢿⣿⣿⣿⡷⠟⡀⠀⠙⣮⡷⠄⠈⠹⣿⣿⣟⠀⢠⡿⠋⣀⠈⢐⡧
+⣯⠀⣭⠻⣎⠡⠝⣷⡆⡈⠤⠉⢷⡍⡀⠌⢯⣾⣿⡿⠋⠁⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⠿⠋⠀⠀⠙⠻⣿⣿⣷⣤⣉⠠⢀⡀⢠⠈⠄⡙⢿⣿⠂⣿⠇⢉⠠⢐⣠⡟
+⣿⠸⡖⡂⡹⣦⢠⡈⢻⡄⢩⠄⣩⣷⣀⢪⣾⠟⠋⠀⠀⠀⢀⣀⣤⣶⠚⠋⠹⣿⠛⠁⠀⠀⠀⠀⠀⠀⠈⠙⢻⠟⠙⠳⢶⣤⣀⠊⠠⠐⡈⠻⣇⣺⡌⠬⣱⡾⢡⡟
+⣟⢘⡇⡀⢌⣻⠲⣱⡘⣯⢀⠏⡂⣟⣰⣏⣁⣠⣤⣴⣶⠛⠋⢹⣿⣿⡿⠀⠀⢸⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⡟⠀⠀⣴⣿⣿⣿⠛⠳⣶⣦⣤⣝⣯⣁⣐⡿⠀⠔⡏
+⣿⣼⢃⠑⣐⣿⠘⢭⢰⣿⡪⢥⣸⡿⠛⠛⠉⠉⢩⡿⠟⣧⠀⠀⠉⠉⠁⠀⣠⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⡀⠀⠈⠛⠛⠁⠀⢀⡼⠛⠻⣿⠛⢷⣜⣟⠈⢨⡗
+⣿⣅⡠⡆⣾⣋⣠⠤⣼⠷⢉⣷⡏⠁⠀⠀⠀⠀⣸⠇⠀⠈⠛⠦⣤⣤⠴⣾⡝⠋⠙⠀⠀⠀⠀⠀⠀⠐⠒⠛⠺⣷⢦⣄⣀⣀⣀⡴⠞⠁⠀⠀⢿⡇⡀⡙⢯⣆⢸⣏
+⡗⠈⠙⠳⢾⣴⣭⠶⠟⠛⠋⡿⠀⠀⣀⣠⣴⣶⣿⣿⣿⣿⣿⣿⣿⣶⣼⠏⠀⠀⠀⠀⢀⡤⣀⡄⠀⠀⠀⠀⠀⠈⣧⣤⣿⣿⣿⣿⣿⣶⣦⣤⣼⠿⢀⠐⠂⠙⠻⣧
+⡇⠀⠀⠀⠀⠀⠀⠀⠀⢀⡞⢁⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀⣼⣯⢞⣝⠇⠀⠀⠀⠀⠀⢀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣬⡡⢈⠰⡷
+⣇⠀⠀⠀⠀⠀⠀⠀⢀⣼⣥⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣄⠀⠀⡽⣫⢮⣫⣢⠆⠀⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣌⠢⣇
+⣇⠀⠀⠀⠀⠀⣀⡴⣫⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⡄⠁⠳⠱⠛⠞⠀⣰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⣧⡧
+⡇⠀⠀⠀⠀⢘⣯⣼⠟⠓⠋⣽⣿⣿⠿⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣤⣀⣀⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⠘⡷
+⡗⢀⣤⣶⣿⣿⣿⣿⣷⣦⣼⣿⡿⠁⠶⠛⠉⠉⠙⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠿⡿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠿⣿⣿⣿⣿⣿⣿⣷⣝⣿⣻⣿⣿⣿⣼⡟
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢟⣿⡇⠀⠀⠀⠀⠀⠀⢸⡟⠋⠉⢉⡴⠟⠛⠋⠉⠉⠀⠀⠀⠀⡗⣦⢈⠉⡙⠻⢿⣿⣷⡄⠃⠠⠀⠌⢙⠻⠿⣿⣿⣿⣿⣮⢿⢿⣷⣏
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⣾⣿⡇⠀⠀⠀⠀⠀⠈⡷⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⡳⣤⠰⣆⢀⠈⠛⠃⠂⢁⢈⠢⣁⣦⣶⣿⣿⣿⡻⣿⣷⣌⢿⡧
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠠⣦⣀⡇⣿⣶⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⢾⢿⣙⣷⡙⣎⢷⡠⠁⣈⣤⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡷
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡧⠀⠀⠀⠀⢻⣿⡁⣿⣿⣿⣿⣿⣷⣦⣄⡀⠀⠀⠀⠀⠀⣿⣯⢿⣻⣮⢷⡘⣧⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟
+⣿⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠀⠀⠀⠀⠀⠾⠏⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⣄⡀⠀⣿⣿⡳⣹⣯⣿⣿⣿⣿⣟⡿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏
+⣿⣯⠟⣱⣿⣿⣿⣿⣿⡿⠿⠦⠶⠤⢤⣤⣀⣀⢸⣿⣿⣿⣯⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣽⢿⣽⡿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇
+⡿⢁⣼⣿⣿⣿⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠈⠉⠙⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣽⣿⣿⣽⢿⣿⣿⣿⣿⣿⣿⣿⡗
+⣷⣼⣿⣿⡿⠯⠶⠆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣞⣿⣿⣯⡿⣿⣿⣿⣿⣿⣿⣏
+⣿⣿⣿⣟⢠⠶⠆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⡇⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿⣿⣿⣷⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡾⣿⣿⣿⣝⣿⣿⣿⣿⣿⡧
+⣿⡿⠉⠙⣯⠀⠀⠀⠀⠀⣀⠤⡤⢤⡤⣤⣤⣤⣄⣀⣀⣣⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⣿⣿⣿⣿⣿⣷⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣿⣿⣿⣿⡽⣿⣿⣿⣿⡇
+⡿⠁⠀⣰⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⢙⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿⣿⣿⣿⣿⣿⣿⣧⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢺⣿⣿⣿⣿⢿⣿⣿⣿⡧
+⡗⠀⠀⡗⠛⠛⠲⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣬⣿⣿⣿⣿⣿⣿⣿⣿⣹⣿⣿⣿⣿⣿⣿⣿⣿⣟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢻⣿⣿⣿⣿⣿⢿⣻⣿⡧
+⡧⠀⠀⠻⣦⣀⣤⡴⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠱⣿⣿⣿⣿⣿⣿⣿⣯⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣾⣿⣿⡗
+⣇⠀⠀⠀⣽⠀⠀⠀⠀⠀⠀⠠⠤⠤⠖⠒⠒⠒⠒⠚⠒⠚⣿⣿⣿⣿⣿⢿⣿⣹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⣿⡟⣿⣿⣿⣿⣿⣿⣧⣿⣿⣿⣿⣿⣿⣿⣿⣿⣏
+⡏⠀⠀⠀⣿⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⡄⣽⣿⣽⣿⣿⢸⣿⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢹⡗⣿⣿⣿⣿⣿⣿⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏
+⡧⠀⠀⠀⠻⣷⣦⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣿⣿⣷⣽⣾⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣏⣿⣿⣿⣿⣿⡟⣿⣿⣿⣿⣿⣿⣿⣿⡷⣿⣇
+⣇⠀⠀⠀⠀⠈⠹⣟⠛⠛⠂⠀⠀⠀⢀⣠⣤⠴⠶⠒⠛⣿⣿⣿⣿⣟⣿⢯⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⣿⢿⣿⣿⣿⣿⣽⢻⣿⣿⣿⣿⣿⣿⣿⣟⣿⡇
+⣧⡀⠀⠀⠀⠀⠀⢹⣦⡀⠀⠀⠰⠚⠉⠁⠀⠀⢀⣤⠶⢻⣿⣿⡿⣾⣿⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣄⣿⣿⣿⣿⣿⣿⣿⣟⣿⣿⣿⣿⣿⣿⣿⣻⣿⣇
+⣿⣧⡀⠀⠀⠀⠀⠀⠸⢟⣷⣶⣀⣀⣀⣠⣴⡞⠋⠀⢠⣾⣿⣿⢿⣿⣿⣯⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣻⣿⣷⣿⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢯⣿⣿⡇
+⣿⢞⡷⡆⠀⠀⠀⠀⠀⠀⠁⠚⠻⠽⠟⠻⠋⠁⠀⢰⣿⣿⡿⣿⣾⣿⣿⣿⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣵⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣻⣿⡏⢿⡇
+⣿⣫⣷⡿⣷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣴⣿⣿⣿⡟⣯⣿⣿⣿⣿⣿⣞⣿⣿⣿⣿⣿⢻⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣏⣿⣟⣵⣿⣿⠁⠸⡇
+⣿⡖⣟⡾⣵⣟⣷⣶⣤⣄⣀⣠⣦⠶⣴⣶⣿⣿⣿⣿⣿⣿⣧⣿⢿⣿⣿⣿⣿⣿⣞⣧⣿⣿⣿⣻⡿⣾⣿⣿⣿⣿⣿⣿⣿⡟⣿⣿⣿⣿⣿⣿⣷⣿⣿⣿⣿⠀⠀⡧
+⣟⢳⣿⣞⣽⣾⣷⣿⣾⣻⣽⣟⣇⣀⣹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⣿⣿⣿⣿⣿⣿⣿⣾⣿⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣁⣀⣀⡧""")
+          print("""You put 2 daggers in your backpack and 1 in your holster not far from your sword. It's time to hit the road. The road will be long, but since you've stocked up,
+         you're ready for it. On the 3rd day, you feel hungry. You haven't taken care of food. But luckily, you see a wolf. Should you risk your daggers to kill him?""")
+          hungry=input(r"Kill wolf? (yes) (no) --- ")
+          if hungry == "no":
+              print ("Alas, YOU DIED.")
+              print(""" NO!                          MNO!
+     MNO!!         [NBK]          MNNOO!
+   MMNO!                           MNNOO!!
+ MNOONNOO!   MMMMMMMMMMPPPOII!   MNNO!!!!
+ !O! NNO! MMMMMMMMMMMMMPPPOOOII!! NO!
+       ! MMMMMMMMMMMMMPPPPOOOOIII! !
+        MMMMMMMMMMMMPPPPPOOOOOOII!!
+        MMMMMOOOOOOPPPPPPPPOOOOMII!
+        MMMMM..    OPPMMP    .,OMI!
+        MMMM::   o.,OPMP,.o   ::I!!
+          NNM:::.,,OOPM!P,.::::!!
+         MMNNNNNOOOOPMO!!IIPPO!!O!
+         MMMMMNNNNOO:!!:!!IPPPPOO!
+          MMMMMNNOOMMNNIIIPPPOO!!
+             MMMONNMMNNNIIIOO!
+           MN MOMMMNNNIIIIIO! OO
+          MNO! IiiiiiiiiiiiI OOOO
+     NNN.MNO!   O!!!!!!!!!O   OONO NO!
+    MNNNNNO!    OOOOOOOOOOO    MMNNON!
+      MNNNNO!    PPPPPPPPP    MMNON!
+         OO!                   ON! """)
+          elif hungry == "yes":
+            print("It was a tough fight, but you survived it, Unfortunately you spent 2 of your 3 blades and dulled your sword a bit. You make a pass and enjoy the food.")
+          print(r'''
+                .7
+            .'/
+           / /
+          / /
+         / /
+        / /
+       / /
+      / /
+     / /         
+    / /          
+  __|/
+,-\__\
+|f-"Y\|
+\()7L/
+ cgD                            __ _
+ |\(                          .'  Y '>,
+  \ \                        / _   _   \
+   \\\                       )(_) (_)(|}
+    \\\                      {  4A   } /
+     \\\                      \uLuJJ/\l
+      \\\                     |3    p)/
+       \\\___ __________      /nnm_n//
+       c7___-__,__-)\,__)(".  \_>-<_/D
+                  //V     \_"-._.__G G_c__.-__<"/ ( \
+                         <"-._>__-,G_.___)\   \7\
+                        ("-.__.| \"<.__.-" )   \ \
+                        |"-.__"\  |"-.__.-".\   \ \
+                        ("-.__"". \"-.__.-".|    \_\
+                        \"-.__""|!|"-.__.-".)     \ \
+                         "-.__""\_|"-.__.-"./      \ l
+                          ".__""">G>-.__.-">       .--,_
+                              ""  G                              ''')
+          print("You get to the dungeon and meet a skeleton there. You had to fight him. He wounded you and you lose 1 heart out of 4. Luckily, your building didn't suffer.")
+          print("You get to the bottom floor and meet a wizard there. You have a tough fight and after killing the wizard you notice that the princess has turned into a toad. The end.")
+          print(""" 
+ _______  _        ______        _______  _______ _________ _        _______  _______  _______  _______    _______  _______    _______  _______  _______  _______    
+(  ____ \( (    /|(  __  \      (  ____ )(  ____ )\__   __/( (    /|(  ____ \(  ____ \(  ____ \(  ____ \  (  ___  )(  ____ )  (  ____ \(  ____ )(  ___  )(  ____ \   
+| (    \/|  \  ( || (  \  ) _   | (    )|| (    )|   ) (   |  \  ( || (    \/| (    \/| (    \/| (    \/  | (   ) || (    )|  | (    \/| (    )|| (   ) || (    \/   
+| (__    |   \ | || |   ) |(_)  | (____)|| (____)|   | |   |   \ | || (_____ | (__    | |      | |        | |   | || (____)|  | (__    | (____)|| |   | || |         
+|  __)   | (\ \) || |   | |     |  _____)|     __)   | |   | (\ \) |(_____  )|  __)   | |      | |        | |   | ||     __)  |  __)   |     __)| |   | || | ____    
+| (      | | \   || |   ) | _   | (      | (\ (      | |   | | \   |      ) || (      | |      | |        | |   | || (\ (     | (      | (\ (   | |   | || | \_  )   
+| (____/\| )  \  || (__/  )(_)  | )      | ) \ \_____) (___| )  \  |/\____) || (____/\| (____/\| (____/\  | (___) || ) \ \__  | )      | ) \ \__| (___) || (___) | _ 
+(_______/|/    )_)(______/      |/       |/   \__/\_______/|/    )_)\_______)(_______/(_______/(_______/  (_______)|/   \__/  |/       |/   \__/(_______)(_______)(_)
+                                                                                                                                                                     """)
+ 
+        
+          
+         
+      
+          
+        elif market == "two":
+          print("""You go into a store. There's a weird guy behind the counter. He looks about 15? You look at the goods and try to figure out what you should buy,
+               because everything is written in the ancient Gerin language. When suddenly the guy speaks to you:
+Boy in a gentle voice - Y-you looking for something?
+You - Yeah, I'm going to the dungeon, but that's not the problem, I only have 10 gold with me, can you recommend something for me?
+Boy - Hmm, I can recommend this speed potion and this healing potion. Will your journey be long?
+You - Yeah, I guess so.
+Boy - Then I also recommend this saturation potion. It's only 7 gold for everything. How do you like it?
+You - Wow, that sounds fantastic. I'll take it. Thank you very much.""") 
+        print("You drank a potion of saturation before leaving the kingdom. After 7 days, you arrive at the place.")
+        print("""⠀⠀
+        ⠀⠀⠀⠀⠀⢀⣀⣠⣤⣤⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢠⣴⣾⣷⠈⣿⣿⣿⣿⣿⡟⢀⣿⣶⣤⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⢠⣾⣷⡄⠻⣿⣿⣧⠘⣿⣿⣿⡿⠀⣾⣿⣿⠃⣰⣿⣶⣄⠀⠀⠀⠀
+⠀⠀⠀⣴⣿⣿⣿⡿⠆⠉⠉⠁⠀⠈⠉⠉⠁⠀⠙⠛⠃⢰⣿⣿⣿⣿⣷⡀⠀⠀
+⠀⠀⣼⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⢿⣿⣿⣿⣷⠀⠀
+⠀⠘⠛⠛⠛⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⠛⠛⠛⠃⠀
+⠀⢸⣿⣿⣿⡇⠀⠀⣀⣰⡄⠀⠀⠀⠀⠀⠀⠀⠀⢠⣶⣠⠀⠀⢰⣾⣿⣿⡇⠀
+⠀⢸⡿⠿⠿⠇⠀⢟⠉⠁⣳⠀⠀⠀⠀⠀⠀⠀⠀⣿⠈⠈⡿⠀⢸⣿⣿⣿⡇⠀
+⠀⣤⣤⣴⣶⡆⠀⢠⣀⡀⠁⠀⠀⠀⠀⠀⠀⠀⠀⠈⢀⣤⡀⠀⠘⠿⠿⠿⠇⠀
+⠀⣿⣿⣿⣿⣷⠀⢸⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⡇⠀⣶⣶⣶⣶⣶⠀
+⠀⣿⣿⣿⣿⣿⠀⠚⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠃⠀⣿⣿⣿⣿⣿⠀
+⠀⠛⠛⠛⠛⢛⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠛⠛⠋⣁⠀
+⠀⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⠀
+⠀⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⠀
+⠀⠛⠛⠛⠛⠛⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠛⠛⠛⠛⠛⠀""")
+        print("""You entered the dungeon. There you meet a nasty sorcerer. He looks at you strangely. You drink all the remaining
+               potions that you bought earlier and take out your sword. A battle ensues. In which you win. It was too easy. As if he had not attacked at all.
+               You look at his face, but there is the face of a princess and suddenly you feel a burning sensation in your back.
+         You turn around, and there is a wizard... Who is already using a spell on you. Unfortunately, you died.""")
+        print(""" 
+                | (_)            _  ( | ) \   / /                                       | |         | |                         | | | |                   (_)                    ( | )
+   ___ _ __   __| |_ _ __   __ _(_)  V V \ \_/ /__  _   _    __ _ _ __ ___   _ __   ___ | |_    __ _| |_      ____ _ _   _ ___  | |_| |__   ___  __      ___ _ __  _ __   ___ _ __V V 
+  / _ \ '_ \ / _` | | '_ \ / _` |         \   / _ \| | | |  / _` | '__/ _ \ | '_ \ / _ \| __|  / _` | \ \ /\ / / _` | | | / __| | __| '_ \ / _ \ \ \ /\ / / | '_ \| '_ \ / _ \ '__|   
+ |  __/ | | | (_| | | | | | (_| |_         | | (_) | |_| | | (_| | | |  __/ | | | | (_) | |_  | (_| | |\ V  V / (_| | |_| \__ \ | |_| | | |  __/  \ V  V /| | | | | | | |  __/ |      
+  \___|_| |_|\__,_|_|_| |_|\__, (_)        |_|\___/ \__,_|  \__,_|_|  \___| |_| |_|\___/ \__|  \__,_|_| \_/\_/ \__,_|\__, |___/  \__|_| |_|\___|   \_/\_/ |_|_| |_|_| |_|\___|_|      
+                            __/ |                                                                                     __/ |                                                           
+                           |___/                                                                                     |___/                                                            """)
+        print("""
+  _    _       _            _            _ 
+ | |  | |     | |          | |          | |
+ | |  | |_ __ | | ___   ___| | _____  __| |
+ | |  | | '_ \| |/ _ \ / __| |/ / _ \/ _` |
+ | |__| | | | | | (_) | (__|   <  __/ (_| |
+  \____/|_| |_|_|\___/ \___|_|\_\___|\__,_|
+                                           
+                                           """)
+                                           
+      elif choose == "three":
+        
+        print("""Unfortunately, you were beaten to death by thugs, who also humiliated you in front of the guards, taking 
+              all your belongings and throwing your dead body right in front of the gate. DEATH.""")
+              
+        print("""  
+               _     _                                     _     _ _ _____        _               _    _                         _   _     _ _      _ _  
+     /\       | |   (_)                                   | |  _( | )  __ \      (_)             | |  | |                       | | | |   (_) |    ( | ) 
+    /  \   ___| |__  _  _____   _____ _ __ ___   ___ _ __ | |_(_)V V| |  | |_   _ _ _ __   __ _  | |  | |_ ____      _____  _ __| |_| |__  _| |_   _V V  
+   / /\ \ / __| '_ \| |/ _ \ \ / / _ \ '_ ` _ \ / _ \ '_ \| __|     | |  | | | | | | '_ \ / _` | | |  | | '_ \ \ /\ / / _ \| '__| __| '_ \| | | | | |    
+  / ____ \ (__| | | | |  __/\ V /  __/ | | | | |  __/ | | | |_ _    | |__| | |_| | | | | | (_| | | |__| | | | \ V  V / (_) | |  | |_| | | | | | |_| |    
+ /_/    \_\___|_| |_|_|\___| \_/ \___|_| |_| |_|\___|_| |_|\__(_)   |_____/ \__, |_|_| |_|\__, |  \____/|_| |_|\_/\_/ \___/|_|   \__|_| |_|_|_|\__, |    
+                                                                             __/ |         __/ |                                                __/ |    
+                                                                            |___/         |___/                                                |___/     """)
+        print("""
+           _    _       _            _            _ 
+          | |  | |     | |          | |          | |
+  ______  | |  | |_ __ | | ___   ___| | _____  __| |
+ |______| | |  | | '_ \| |/ _ \ / __| |/ / _ \/ _` |
+          | |__| | | | | | (_) | (__|   <  __/ (_| |
+           \____/|_| |_|_|\___/ \___|_|\_\___|\__,_|
+                                                    
+                                                    """)
+        print(""" NO!                          MNO!
+     MNO!!         [NBK]          MNNOO!
+   MMNO!                           MNNOO!!
+ MNOONNOO!   MMMMMMMMMMPPPOII!   MNNO!!!!
+ !O! NNO! MMMMMMMMMMMMMPPPOOOII!! NO!
+       ! MMMMMMMMMMMMMPPPPOOOOIII! !
+        MMMMMMMMMMMMPPPPPOOOOOOII!!
+        MMMMMOOOOOOPPPPPPPPOOOOMII!
+        MMMMM..    OPPMMP    .,OMI!
+        MMMM::   o.,OPMP,.o   ::I!!
+          NNM:::.,,OOPM!P,.::::!!
+         MMNNNNNOOOOPMO!!IIPPO!!O!
+         MMMMMNNNNOO:!!:!!IPPPPOO!
+          MMMMMNNOOMMNNIIIPPPOO!!
+             MMMONNMMNNNIIIOO!
+           MN MOMMMNNNIIIIIO! OO
+          MNO! IiiiiiiiiiiiI OOOO
+     NNN.MNO!   O!!!!!!!!!O   OONO NO!
+    MNNNNNO!    OOOOOOOOOOO    MMNNON!
+      MNNNNO!    PPPPPPPPP    MMNON!
+         OO!                   ON!""")
+      elif market == "three": # type: ignore
+        print("You arrive at the grocery store. Hmm... You need to buy some food for your hike. You buy some meat, some dry food. You pack it up and hit the road.")
+        print("During your journey you attracted wolves and they mauled you in your sleep. YOU ARE DEAD.")
+        print(""" NO!                          MNO!
+     MNO!!         [NBK]          MNNOO!
+   MMNO!                           MNNOO!!
+ MNOONNOO!   MMMMMMMMMMPPPOII!   MNNO!!!!
+ !O! NNO! MMMMMMMMMMMMMPPPOOOII!! NO!
+       ! MMMMMMMMMMMMMPPPPOOOOIII! !
+        MMMMMMMMMMMMPPPPPOOOOOOII!!
+        MMMMMOOOOOOPPPPPPPPOOOOMII!
+        MMMMM..    OPPMMP    .,OMI!
+        MMMM::   o.,OPMP,.o   ::I!!
+          NNM:::.,,OOPM!P,.::::!!
+         MMNNNNNOOOOPMO!!IIPPO!!O!
+         MMMMMNNNNOO:!!:!!IPPPPOO!
+          MMMMMNNOOMMNNIIIPPPOO!!
+             MMMONNMMNNNIIIOO!
+           MN MOMMMNNNIIIIIO! OO
+          MNO! IiiiiiiiiiiiI OOOO
+     NNN.MNO!   O!!!!!!!!!O   OONO NO!
+    MNNNNNO!    OOOOOOOOOOO    MMNNON!
+      MNNNNO!    PPPPPPPPP    MMNON!
+         OO!                   ON!""")
